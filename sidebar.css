@@ -1,0 +1,67 @@
+.sidebar {
+  background-color: black;
+  display: flex; flex-direction: column;
+  position: fixed; width: 192px;
+  top: 64px; left: 0px; bottom: 0px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid rgba(76, 76, 76, 0.5);
+}
+
+.upper {
+  display: flex; flex-direction: column;
+  color: white;
+  padding-bottom: 22px;
+}
+
+.uprow {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.icondiv {
+  width: 32px;
+}
+
+.uprowtext {
+  font-size: 16px;
+  padding-left: 22px;
+}
+
+.homeicon {
+  height: 27px;
+  padding-left: 2px;
+}
+
+.exploreicon {
+  height: 27px;
+  margin-left: -1px;
+}
+
+.libraryicon {
+  height: 27px;
+  padding-left: 0px;
+}
+
+.lower {
+  border-top: 1px solid rgba(76, 76, 76, 0.5);
+  align-items: middle;
+  display: flex; flex-direction: column;
+  padding-top: 25px;
+}
+
+.lowbutton {
+  color: white; font-size: 14px;
+  background-color: rgb(29, 29, 29);
+  border: none; border-radius: 20px;
+  padding-top: 9px; padding-bottom: 9px;
+  margin-bottom: 0;
+}
+
+.lowtext {
+  margin-top: 8px; line-height: 17px;
+  color: rgb(134, 134, 134);
+  font-size: 12px;
+}
